@@ -1,0 +1,19 @@
+A. 
+	identifier for double average(double* n1,double &n2): _Z7averagePdRd
+
+	identifier for int average(int n1,float n2): _Z7averageif
+
+B.
+	output:
+			1 8
+			4 8
+			4 8
+			8 8
+	WHY:
+		Under the 64-bit OS system, each pointer contains an address. Therefore, each pointer variable takes up 8 bytes memory.
+		each char variable takes up 1 byte memory.
+		each int variable takes up 4 bytes memory.
+		each float variable takes up 4 bytes memory.
+		each double variable takes up 8 bytes memory.
+
+
